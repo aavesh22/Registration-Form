@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Registration Form</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="firstname">First Name</label>
+                <input type="text" placeholder="enter first name" id="firstname" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="lastname">Last Name</label>
+                <input type="text" placeholder="enter last name" id="lastname" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <tr>
+                    <label for="state">State</label>
+                    <td><select name="state" id="state">
+                            <option value="-1" selected>select</option>
+                            <option value="Andhra Pradesh">ANDHRA PRADESH</option>
+                            <option value="Goa">GOA</option>
+                            <option value="Gujarat">GUJARAT</option>
+                            <option value="Himachal Pradesh">HIMACHAL PRADESH</option>
+                            <option value="Kerala">KERALA</option>
+                            <option value="Karnataka">KARNATAKA</option>
+                            <option value="Maharashtra">MAHARASHTRA</option>
+                            <option value="Rajasthan">RAJASTHAN </option>
+                            <option value="Telangana">TELANGANA</option>
+                        </select></td>
+                </tr>
+            </div>
+
+            <div class="form-control">
+                <tr>
+                    <label for="city">City</label>
+                    <td><select name="city" id="city">
+                            <option value=selected>select</option>
+                            <option value="Delhi">DELHI</option>
+                            <option value="Mumbai">MUMBAI</option>
+                            <option value="Bangalore">GOA</option>
+                            <option value="Hyderabad">HYDERABAD</option>
+                            <option value="Surat">SURAT</option>
+                            <option value="Chandigarh">CHANDIGARH</option>
+                            <option value="Kolhapur">KOLHAPUR</option>
+                        </select></td>
+                </tr>
+            </div>
+
+            <div class="form-control">
+                <label for="dateofbirth">Date of Birth</label>
+                <input type="date" id="dateofbirth" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" placeholder="enter email" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="mobileno">Mobile Number</label>
+                <input type="text" placeholder="enter mobileno" id="mobileno" maxlength="10" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </div>
+    <script src="register.js"></script>
+
+</body>
+
+</html>
